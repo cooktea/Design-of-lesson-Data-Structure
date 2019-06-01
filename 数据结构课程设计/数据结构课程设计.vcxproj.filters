@@ -18,5 +18,19 @@
     <ClCompile Include="数据结构课程设计.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="palte.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plateManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="palte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="plateManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

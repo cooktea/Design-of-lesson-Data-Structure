@@ -151,7 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="palte.cpp" />
+    <ClCompile Include="plateManager.cpp" />
     <ClCompile Include="数据结构课程设计.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="palte.h" />
+    <ClInclude Include="plateManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
