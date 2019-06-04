@@ -9,7 +9,9 @@ public:
 	~plateManager();
 	void insertPlate();
 	void showPaltes();
-private:
+	void sort();
+	void sortOnce(int bit);
+public:
 	int plateNumber = 0;
 	plate* plates = NULL;
 };

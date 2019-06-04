@@ -10,5 +10,6 @@ public:
 public:
 	char* number;
 	plate* next;
+	plate* before;
 };
 

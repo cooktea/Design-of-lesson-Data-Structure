@@ -1,17 +1,16 @@
 ﻿#include <iostream>
-#include <stdlib.h>
 #include "plateManager.h"
 
 using namespace std;
 
-
 int main()
 {
-	plateManager* manager = new plateManager();
-	manager->insertPlate();
-	manager->showPaltes();
-	//for (int i = 0; i < 100; i++) {
-	//	cout << rand() % 100 << endl;
-	//}
+	plateManager Manager;
+	Manager.insertPlate();
+	cout << "-----------排序前-----------" << endl;
+	Manager.showPaltes();
+	Manager.sort();
+	cout << "-----------排序后-----------" << endl;
+	Manager.showPaltes();
 	return 0;
 }

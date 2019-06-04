@@ -13,6 +13,7 @@ plate::plate()
 {
 	this->number = (char*)malloc(sizeof(char) * 9);
 	next = NULL;
+	before = NULL;
 }
 
 plate::~plate()
