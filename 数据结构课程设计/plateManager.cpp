@@ -114,7 +114,33 @@ void plateManager::sortOnce(int bit) {
 }
 
 void plateManager::sort() {
+	cout << "排序开始..." << endl;
 	for (int i = 7; i >= 0; i--) {
 		this->sortOnce(i);
 	}
+	cout << "排序完成..." << endl;
+}
+
+void plateManager::run() {
+	int type = 0;
+	do {
+		cout << "请选择需要的操作" << endl;
+		cout << "1：录入信息" << endl;
+		cout << "2：排序" << endl;
+		cout << "3：输出车牌信息" << endl;
+		//cout << "" << endl;
+		cout << "0：退出系统" << endl;
+		cin >> type;
+		switch(type) {
+			case 1:
+				this->insertPlate();
+				break;
+			case 2:
+				this->sort();
+				break;
+			case 3:
+				this->showPaltes();
+				break;
+		}
+	} while (type != 0);
 }
